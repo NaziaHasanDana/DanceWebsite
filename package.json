@@ -1,0 +1,17 @@
+{
+  "name": "dance",
+  "version": "1.0.0",
+  "description": "This is a website for dance",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dana",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.7",
+    "parser": "^0.1.4",
+    "pug": "^3.0.2"
+  }
+}

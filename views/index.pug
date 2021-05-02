@@ -1,0 +1,59 @@
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul
+          #logo 
+            img(src="static/images3333.png")   
+          li #[a(href="/") Home ]
+          li #[a(href="/") About]
+          li #[a(href="/") Contact Us]
+          li #[a(href="/") Services] 
+          li #[a(href="/") Class Info]
+    section#introSection
+        div  Welcome to
+        
+        div Dana's
+        div Dance
+        div Acedemy.
+        div.small   Eat Dance Sleep Repeat! 
+
+    section#missionSection
+        h2 Popular Dance Packages
+        .card 
+          h3 Salsa Package 
+          .card-box 
+            .card-img 
+              img(src="static/salsa1.jpg")
+            .card-content 
+              p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis sequi odio voluptatem debitis. Obcaecati fugiat accusantium vero velit, tempore cumque.
+        .card 
+          h3 Classical Package 
+          .card-box 
+            .card-img 
+              img(src="static/classical22.jpg")
+            .card-content 
+              p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis sequi odio voluptatem debitis. Obcaecati fugiat accusantium vero velit, tempore cumque.
+        .card 
+          h3 Hip-Hop Package 
+          .card-box 
+            .card-img 
+              img(src="static/hip1.jpg")
+            .card-content 
+              p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis sequi odio voluptatem debitis. Obcaecati fugiat accusantium vero velit, tempore cumque.
+
+    section#sponsorSection
+        h2   Our Sponsors
+        #sponsors 
+          img(src="static/acer.png", class="spImage") 
+          img(src="static/microsoft.png", class="spImage") 
+          img(src="static/hp.jpg", class="spImage") 
+  
+    footer#footer 
+       | Copyright © 2021 DanaDanceAcademy.com. All rights reserved.
+       
+    script
+      include ../static/index.js
